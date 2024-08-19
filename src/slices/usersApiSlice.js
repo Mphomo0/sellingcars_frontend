@@ -7,7 +7,7 @@ export const usersApiSlice = apiSlice.injectEndpoints({
     login: builder.mutation({
       query: (data) => {
         return {
-          url: 'https://sellingcarsapi.onrender.com/api/users/login',
+          url: '/api/users/login',
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -20,7 +20,7 @@ export const usersApiSlice = apiSlice.injectEndpoints({
     // Mutation to log out a user
     logout: builder.mutation({
       query: () => ({
-        url: 'https://sellingcarsapi.onrender.com/api/users/logout', // Define the URL for user logout
+        url: '/api/users/logout', // Define the URL for user logout
         method: 'POST', // Specify the HTTP method as POST
         headers: {
           'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ export const usersApiSlice = apiSlice.injectEndpoints({
     // Mutation to update user profile
     updateUser: builder.mutation({
       query: (data) => ({
-        url: 'https://sellingcarsapi.onrender.com/api/users/profile', // Define the URL for updating user profile
+        url: '/api/users/profile', // Define the URL for updating user profile
         method: 'PUT', // Specify the HTTP method as PUT
         body: data, // Include updated user profile data in the request body
       }),

@@ -35,7 +35,7 @@ const Results = () => {
               >
                 <img
                   alt='Car'
-                  src={`http://localhost:5000/${car.imagesUrl[0]}`}
+                  src={`https://sellingcarsapi.onrender.com/${car.imagesUrl[0]}`}
                   className='h-56 w-full rounded-md object-cover'
                 />
                 <div className='mt-2'>
