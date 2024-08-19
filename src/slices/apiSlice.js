@@ -8,7 +8,7 @@ import { logout } from './authSlice'
 
 // Define the baseQuery with the base URL
 const baseQuery = fetchBaseQuery({
-  baseUrl: 'https://sellingcars.onrender.com',
+  baseUrl: 'https://sellingcarsapi.onrender.com',
   credentials: 'include',
 })
 
