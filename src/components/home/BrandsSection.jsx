@@ -1,28 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Marquee from 'react-fast-marquee'
 import brandsImages from '../../utils/brandsImages'
 import { useGetMakesQuery } from '../../slices/carsApiSlice'
 
 const BrandsSection = () => {
-  const [availableMakes, setAvailableMakes] = useState([])
-  const [isLoading, setIsLoading] = useState(true)
-  const [isError, setIsError] = useState(false)
-
-  const { refetch } = useGetMakesQuery({
-    skip: true, // Skip the query by default
-    onSuccess: (data) => {
-      setAvailableMakes(data)
-      setIsLoading(false)
-    },
-    onError: () => {
-      setIsError(true)
-      setIsLoading(false)
-    },
-  })
-
-  useEffect(() => {
-    refetch() // fetch data when component mounts
-  }, [refetch])
+  const { data: availableMakes, isLoading, isError } = useGetMakesQuery()
 
   if (isLoading)
     return (
