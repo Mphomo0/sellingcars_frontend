@@ -65,7 +65,7 @@ const CarDetailSlider = ({ car }) => {
         {car.imagesUrl?.map((image, index) => (
           <div key={index} className='keen-slider__slide'>
             <img
-              src={`/${image}`}
+              src={`https://sellingcarsapi.onrender.com/${image}`}
               alt={`Car image ${index + 1}`}
               className='w-full h-auto'
             />
@@ -77,7 +77,7 @@ const CarDetailSlider = ({ car }) => {
         {car?.imagesUrl?.map((image, index) => (
           <div key={index} className='keen-slider__slide thumbnail-slide'>
             <img
-              src={`/${image}`}
+              src={`https://sellingcarsapi.onrender.com/${image}`}
               alt={`Thumbnail ${index + 1}`}
               className='w-full h-auto'
             />
