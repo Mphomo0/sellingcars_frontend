@@ -8,12 +8,12 @@
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
    - [Running the APPLICATION](#running-the-application)
-4. [PROJECT STRUCTURE](#project-structure)
-5. [API INTEGRATION](#api-documentation)
-6. [TESTING](#testing)
-7. [DEPLOYMENT](#deployment)
-8. [CONTRIBUTING](#contributing)
-9. [CONTACT](#contact)
+4. [Project Structure](#project-structure)
+5. [API Integration](#api-documentation)
+6. [Testing](#testing)
+7. [Deployment](#deployment)
+8. [Contributing](#contributing)
+9. [Contact](#contact)
 
 ## INTRODUCTION
 
