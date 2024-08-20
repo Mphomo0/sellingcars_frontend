@@ -1,8 +1,33 @@
-# React + Vite
+## Car Management System Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Table of Contents
 
-Currently, two official plugins are available:
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+   - [Running the API](#running-the-api)
+4. [API Documentation](#api-documentation)
+5. [Environment Variables](#environment-variables)
+6. [Testing](#testing)
+7. [Deployment](#deployment)
+8. [Contributing](#contributing)
+9. [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## INTRODUCTION
+
+This is the frontend of a simple car management system built with React.js. It provides an interface for users and admin to interact with the backend API, allowing for viewing, adding, updating, and deleting cars, as well as managing user authentication and access control.
+
+## FEATURES
+
+- User Authentication (JWT)
+- User Login
+- View, Search and filter Cars
+- CRUD Operations for cars (Admin Access)
+- Responsive Design for both Desktop and Mobile
+- Role based Access Control
+
+## GETTING STARTED
+
+### Prerequisites
