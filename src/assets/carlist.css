@@ -73,3 +73,11 @@ tr:nth-child(even) {
 .thumbnail .keen-slider__slide.active {
   border: 2px dashed black;
 }
+
+.slick-next {
+  right: -5px !important;
+}
+
+.slick-prev {
+  left: -2px !important;
+}
